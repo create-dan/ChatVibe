@@ -1,0 +1,34 @@
+Date : 15 june 2023 
+One more attempt to complete this chat app(Bhai ho ja ab Jai shree ram)
+
+Models - chats, messages , users
+
+nodejs is a web server
+express js is a web framework
+
+react is built by facebook
+
+Virtual Dom 
+
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
+
+nodejs is js run time 
+4 Videos DONE
+
+Date 👍 16 June 
+Started with react
+
+6th DONE
+7th DONE
+
+8th DONE
+
+9th 20 minute done 
+register and login done matchpassword done , jwt done 
+
+9th video done
+In fronted successfully uploading image to cloudinary and login and sign up done
+
+ 
+
+
