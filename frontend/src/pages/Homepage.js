@@ -16,26 +16,29 @@ import Signup from "../components/Authentication/Signup";
 function Homepage() {
   const history = useHistory();
 
-  // useEffect(() => {
-  //   const user = JSON.parse(localStorage.getItem("userInfo"));
+  useEffect(() => {
+    const user = JSON.parse(localStorage.getItem("userInfo"));
 
-  //   if (user) history.push("/chats");
-  // }, [history]);
+    if (user) history.push("/chats");
+  }, [history]);
 
   return (
     <Container maxW="xl" centerContent>
       <Box
-        d="flex"
+        display="flex"
         justifyContent="center"
         p={3}
         bg="white"
         w="100%"
         m="40px 0 15px 0"
         borderRadius="lg"
-        borderWidth="1px"
+        borderWidth="5px"
+        
+        borderColor="blue.200"
+        _hover={{ bg: "#F8E8EE" }}
       >
-        <Text fontSize="4xl" fontFamily="Work sans" >
-          Talk-A-While
+        <Text fontSize="4xl" fontFamily="Work sans">
+          Chat-Vibe
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">

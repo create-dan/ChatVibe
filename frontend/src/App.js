@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./App.css";
 
 import { Route } from "react-router-dom";
-import Homepage from './pages/Homepage';
-import ChatPage from './pages/ChatPage';
-
+import Homepage from "./pages/Homepage";
+import ChatPage from "./pages/ChatPage";
 
 const App = () => {
   return (
@@ -13,6 +12,6 @@ const App = () => {
       <Route path="/chats" component={ChatPage} />
     </div>
   );
-}
+};
 
-export default App
+export default App;
