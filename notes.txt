@@ -34,3 +34,5 @@ In fronted successfully uploading image to cloudinary and login and sign up done
  
 
 
+"proxy": "https://chat-vibe.onrender.com/",
+  "proxy": "http://localhost:5000/",

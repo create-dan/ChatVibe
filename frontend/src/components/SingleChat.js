@@ -18,7 +18,7 @@ import { ChatState } from "../Context/ChatProvider";
 import { InputRightAddon } from "@chakra-ui/react";
 import { InputGroup } from "@chakra-ui/react";
 import { InputRightElement } from "@chakra-ui/react";
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://chat-vibe.onrender.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
@@ -251,11 +251,11 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
                   onChange={typingHandler}
                 />
                 {/* <InputRightAddon children=".com" /> */}
-                <InputRightElement width="4.5rem">
+                {/* <InputRightElement width="4.5rem" onClick={() => sendMessage()}>
                   <Button h="1.75rem" size="sm">
                     Send
                   </Button>
-                </InputRightElement>
+                </InputRightElement> */}
               </InputGroup>
             </FormControl>
           </Box>

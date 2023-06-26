@@ -31,7 +31,6 @@ const Login = () => {
       return;
     }
 
-    
     try {
       const config = {
         headers: {
@@ -45,7 +44,6 @@ const Login = () => {
         config
       );
 
-     
       toast({
         title: "Login Successful",
         status: "success",

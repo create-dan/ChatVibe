@@ -39,6 +39,9 @@ export const isSameUser = (messages, m, i) => {
 };
 
 export const getSender = (loggedUser, users) => {
+  if (!users || !loggedUser) {
+    return ""; // or handle the case when users or loggedUser is undefined
+  }
   return users[0]._id === loggedUser._id ? users[1].name : users[0].name;
 };
 
