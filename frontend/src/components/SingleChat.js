@@ -18,7 +18,7 @@ import { ChatState } from "../Context/ChatProvider";
 import { InputRightAddon } from "@chakra-ui/react";
 import { InputGroup } from "@chakra-ui/react";
 import { InputRightElement } from "@chakra-ui/react";
-const ENDPOINT = "https://chat-vibe.onrender.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://chat-vibe.onrender.com/"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
