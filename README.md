@@ -3,23 +3,32 @@
 **Chat-Vibe** is a user-friendly website that offers real-time chat capabilities, allowing users to connect, chat, and collaborate with others. Chat-Vibe provides a seamless chatting experience where users can exchange messages in real-time. It also allows users to create groups for collaborative discussions and receive notifications for new messages. With secure authentication, users can ensure their privacy and enjoy a safe communication environment.
 
 <p align="center">
-<img src="screenshots/n1.jpeg" height="440">
+<img src="screenshots/signup.png" height="440">
 </p>
 
 
 
 <p align="center">
-<img src="screenshots/n2.jpeg" height="440">
+<img src="screenshots/1.png" height="440">
 </p>
 
 
 <p align="center">
-<img src="screenshots/n3.jpeg" height="440">
+<img src="screenshots/2.png" height="440">
 </p>
 
 
 <p align="center">
-<img src="screenshots/n4.jpeg" height="440">
+<img src="screenshots/3.png" height="440">
+</p>
+
+<p align="center">
+<img src="screenshots/4.png" height="440">
+</p>
+
+
+<p align="center">
+<img src="screenshots/5.png" height="440">
 </p>
 
 
