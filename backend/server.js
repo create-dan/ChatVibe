@@ -41,7 +41,8 @@ const server = app.listen(PORT, console.log(`server running on ${PORT}`));
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chat-vibe00.onrender.com/",
+    // origin: "https://chat-vibe00.onrender.com/",
+    origin:"*"
   },
 });
 
