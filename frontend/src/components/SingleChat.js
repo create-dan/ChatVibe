@@ -18,6 +18,7 @@ import { ChatState } from "../Context/ChatProvider";
 import { InputRightAddon } from "@chakra-ui/react";
 import { InputGroup } from "@chakra-ui/react";
 import { InputRightElement } from "@chakra-ui/react";
+import { BACKEND_URL } from "../../URL/url";
 const ENDPOINT = "https://chat-vibe.onrender.com/"; 
 var socket, selectedChatCompare;
 
@@ -54,7 +55,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       setLoading(true);
 
       const { data } = await axios.get(
-        `/api/message/${selectedChat._id}`,
+        `${BACKEND_URL}/api/message/${selectedChat._id}`,
         config
       );
       setMessages(data);
@@ -85,7 +86,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         };
         setNewMessage("");
         const { data } = await axios.post(
-          "/api/message",
+          "${BACKEND_URL}/api/message",
           {
             content: newMessage,
             chatId: selectedChat,
