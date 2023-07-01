@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "https://chat-vibe.onrender.com/",
+  "proxy": "https://chat-vibe.onrender.com/api",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
