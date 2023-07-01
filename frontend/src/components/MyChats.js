@@ -11,7 +11,7 @@ import { ChatState } from "../Context/ChatProvider";
 import empty from "../animations/empty.json";
 import Lottie from "react-lottie";
 import EmptyChat from "./EmptyChat";
-import { BACKEND_URL } from "../../URL/url";
+import { BACKEND_URL } from "../URL/url";
 
 const MyChats = ({ fetchAgain }) => {
   const [loggedUser, setLoggedUser] = useState();

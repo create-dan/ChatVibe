@@ -31,7 +31,7 @@ import { Effect } from "react-notification-badge";
 import { getSender } from "../../config/ChatLogics";
 import UserListItem from "../userAvatar/UserListItem";
 import { ChatState } from "../../Context/ChatProvider";
-import { BACKEND_URL } from "../../../URL/url";
+import { BACKEND_URL } from "../../URL/url";
 
 function SideDrawer() {
   const [search, setSearch] = useState("");
